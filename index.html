@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1554e8" />
+    <meta name="description" content="Atelier A — 독립 크리에이티브 스튜디오의 브랜딩 프로젝트 포트폴리오." />
+    <title>Atelier A — Selected Work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="site-shell" id="projects">
+      <a class="brand" href="#projects" aria-label="Atelier A 홈">a<span>q</span></a>
+
+      <header class="topbar">
+        <a class="wordmark" href="#projects">ATELIER <span>A</span></a>
+        <nav class="main-nav" aria-label="메인 메뉴">
+          <a class="nav-link is-active" href="#projects" data-panel="projects">Projects</a>
+          <a class="nav-link" href="#about" data-panel="about">About</a>
+          <a class="nav-link" href="#team" data-panel="team">Team</a>
+          <a class="nav-link" href="#contact" data-panel="contact">Contact</a>
+        </nav>
+        <span class="availability"><i></i> Seoul · Available for select work</span>
+      </header>
+
+      <aside class="side-rail" aria-label="프로젝트 바로가기">
+        <span class="rail-label">SELECTED WORK — 2025</span>
+        <div class="rail-links" id="rail-links"></div>
+        <span class="rail-index">SCROLL TO EXPLORE <b>↓</b></span>
+      </aside>
+
+      <section class="project" aria-live="polite" aria-atomic="true">
+        <div class="project-copy">
+          <div class="project-count"><span id="current-number">01</span><span class="count-divider">/</span><span id="total-number">05</span></div>
+          <p class="eyebrow" id="project-category">Brand identity · 2025</p>
+          <h1 id="project-title">A study<br />in presence.</h1>
+          <p class="project-description" id="project-description">좋은 브랜드는 소리 높이지 않아도 기억됩니다. 선명한 태도와 오래 남는 인상을 위한 새로운 아이덴티티.</p>
+          <a class="case-link" id="case-link" href="mailto:aileeny123@naver.com?subject=Atelier%20A%20project%20inquiry">
+            <span>Explore the project</span><span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="slide-controls">
+            <button class="control-button previous" type="button" aria-label="이전 프로젝트"><span aria-hidden="true">←</span></button>
+            <div class="slide-progress" aria-label="프로젝트 진행 상태"><span id="progress-fill"></span></div>
+            <button class="control-button next" type="button" aria-label="다음 프로젝트"><span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+
+        <figure class="project-visual">
+          <div class="project-artwork" id="project-artwork" role="img" aria-label="브랜드 아이덴티티를 상징하는 추상 아이콘"></div>
+          <figcaption><span id="image-caption">01 / FORM &amp; FIGURE</span><span>ART DIRECTION — ATELIER A</span></figcaption>
+          <div class="image-index" aria-hidden="true">A—01</div>
+        </figure>
+      </section>
+
+      <footer class="bottom-bar">
+        <span>INDEPENDENT CREATIVE STUDIO</span>
+        <span class="footer-center">서울을 기반으로, 어디서든.</span>
+        <a href="mailto:aileeny123@naver.com">LET’S TALK <span aria-hidden="true">↗</span></a>
+      </footer>
+
+      <section class="info-panel" id="info-panel" aria-hidden="true" aria-labelledby="panel-title">
+        <button class="panel-close" type="button" aria-label="패널 닫기">×</button>
+        <p class="eyebrow" id="panel-kicker">ATELIER A</p>
+        <h2 id="panel-title"></h2>
+        <p id="panel-copy"></p>
+        <a id="panel-action" href="mailto:aileeny123@naver.com"></a>
+      </section>
+    </main>
+  </body>
+</html>
